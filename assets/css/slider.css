@@ -1,0 +1,77 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+            
+.p-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.p-wrapper > section{
+    text-align: center;
+    background-color: #260F26;
+    overflow-y: hidden;
+}
+            
+#button_a:checked ~ #slider .p-wrapper {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); 
+}
+            
+#button_b:checked ~ #slider .p-wrapper {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); 
+}
+
+#button_c:checked ~ #slider .p-wrapper {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%); 
+}
+
+#button_d:checked ~ #slider .p-wrapper {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%); 
+}
+            
+[class^="panel_"] {
+    overflow: auto;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    padding: 24px 0 0 0;
+}
+[class^="label_"] {
+    font-size: 2.115vh;
+    display: block;
+    cursor: pointer;
+    margin: 16px;
+    min-width: 15.625vw;
+    min-height: 2.222vh;
+    max-width: auto;
+    max-height: fit-content;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    color: #404e7c;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+            
+[class^="label_"]:hover {
+    color: #444;
+    background-color: #ffeed9;
+}
+            
+#button_a:checked ~ #navigation .label_a,
+#button_b:checked ~ #navigation .label_b,
+#button_c:checked ~ #navigation .label_c,
+#button_d:checked ~ #navigation .label_d {
+     cursor: default;
+     color: #fff;
+     background-color: #222;
+}
