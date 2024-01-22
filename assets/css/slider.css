@@ -50,7 +50,7 @@
     display: block;
     cursor: pointer;
     margin: 16px;
-    min-width: 15.625vw;
+    min-width: 20vw;
     min-height: 2.222vh;
     max-width: auto;
     max-height: fit-content;

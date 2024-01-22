@@ -1,0 +1,130 @@
+/* Player Models */
+div.item_1:nth-of-type(1) {
+  --offset: 1;
+  background-image: url(../images/Amy_Pose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #261737;
+  border-radius: 50px;
+}
+div.item_1:nth-of-type(2) {
+  --offset: 2;
+  background-image: url(../images/lanky_man_pose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff70a6;
+  border-radius: 50px;
+}
+div.item_1:nth-of-type(3) {
+  --offset: 3;
+  background-image: url(../images/lanky_man_pose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff9770;
+  border-radius: 50px;
+}
+div.item_1:nth-of-type(4) {
+  --offset: 4;
+  background-image: url(../images/lanky_man_pose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ffd670;
+  border-radius: 50px;
+}
+div.item_1:nth-of-type(5) {
+  --offset: 5;
+  background-image: url(../images/lanky_man_pose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #e9ff70;
+}
+
+/* Skins */
+div.item_2:nth-of-type(1) {
+  --offset: 1;
+  background-image: url(../images/AmySkin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff70a6;
+  border-radius: 50px;
+}
+div.item_2:nth-of-type(2) {
+  --offset: 2;
+  background-image: url(../images/StellaSkin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #261737;
+  border-radius: 50px;
+}
+div.item_2:nth-of-type(3) {
+  --offset: 3;
+  background-image: url(../images/DeoxSkin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff9770;
+  border-radius: 50px;
+}
+div.item_2:nth-of-type(4) {
+  --offset: 4;
+  background-image: url(../images/HayleySkin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #261737;
+  border-radius: 50px;
+}
+
+/* Item Models */
+div.item_3:nth-of-type(1) {
+  --offset: 1;
+  background-image: url(../images/sword.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #261737;
+  border-radius: 50px;
+}
+div.item_3:nth-of-type(2) {
+  --offset: 2;
+  background-image: url(../images/witch_hat.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff70a6;
+  border-radius: 50px;
+}
+div.item_3:nth-of-type(3) {
+  --offset: 3;
+  background-image: url(../images/berseker_icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ff9770;
+  border-radius: 50px;
+}
+div.item_3:nth-of-type(4) {
+  --offset: 4;
+  background-image: url(../images/katana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ffd670;
+  border-radius: 50px;
+}
+div.item_3:nth-of-type(5) {
+  --offset: 5;
+  background-image: url(../images/fox_plushie.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #e9ff70;
+  border-radius: 50px;
+}
